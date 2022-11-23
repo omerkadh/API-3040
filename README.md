@@ -1,5 +1,7 @@
 # API description - Dino
 
+Get a list of skating rink locations within a specified kilometer radius of you choosing. Information for each skating rink includes: the name, the address, the postal code, and phone number. Data is available exclusively in JSON.
+
 # List of endpoints with parameters
 
 # Description of resources - formatted as JSON
