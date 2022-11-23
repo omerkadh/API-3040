@@ -1,4 +1,4 @@
-# API description
+# API description - Dino
 
 # List of endpoints with parameters
 
