@@ -6,6 +6,12 @@ Get a list of current skating rink locations within a specified kilometer radius
 
 # Description of resources - formatted as JSON
 
+A List of available rinks in the radius are listed and each have 4 outputed resources which are: \
+_Name_: A **String** containing the name of the rink. \
+_Adress_: A **String** containing the address of the rink. \
+_Postal_: A **String** containing the postal code of the rink. \
+Phone_: An **Integer** containing the phone number of the manager of the rink. \
+
 # Sample request with sample response
 
 
