@@ -10,7 +10,7 @@ A List of available rinks in the radius are listed and each have 4 outputed reso
 _Name_: A **String** containing the name of the rink. \
 _Adress_: A **String** containing the address of the rink. \
 _Postal_: A **String** containing the postal code of the rink. \
-Phone_: An **Integer** containing the phone number of the manager of the rink. \
+_Phone_: An **Integer** containing the phone number of the manager of the rink.
 
 # Sample request with sample response
 
