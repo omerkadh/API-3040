@@ -8,7 +8,7 @@ Get a list of current skating rink locations within a specified kilometer radius
 
 # Sample request with sample response
 
-Get: `https://api.manitobaskatingrinks.org/info/getskatingrink?lat=42.103&lon=44.111&radius=20`
+Get: `https://api.manitobaskatingrinks.org/info/1.0/getskatingrink?lat=42.103&lon=44.111&radius=20`
 
 `[
 {
