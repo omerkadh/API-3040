@@ -1,6 +1,6 @@
 # Manitoba Skating Rinks API
 
-Get a list of skating rink locations within a specified kilometer radius of your choosing. Information for each skating rink includes: the name, the address, the postal code, and phone number. Data is available exclusively in JSON.
+Get a list of current skating rink locations within a specified kilometer radius of your choosing. Information for each skating rink includes: the name, the address, the postal code, and the phone number. Data is available exclusively in JSON.
 
 # List of endpoints with parameters
 
