@@ -1,6 +1,6 @@
-# API description - Dino
+# Manitoba Skating Rinks API
 
-Get a list of skating rink locations within a specified kilometer radius of you choosing. Information for each skating rink includes: the name, the address, the postal code, and phone number. Data is available exclusively in JSON.
+Get a list of skating rink locations within a specified kilometer radius of your choosing. Information for each skating rink includes: the name, the address, the postal code, and phone number. Data is available exclusively in JSON.
 
 # List of endpoints with parameters
 
@@ -8,7 +8,7 @@ Get a list of skating rink locations within a specified kilometer radius of you 
 
 # Sample request with sample response
 
-Get: `https://api.manitobaSkatingRigs.info/getSkatingRink/42.103/44.111/20`
+Get: `https://api.manitobaskatingrinks.org/info/getskatingrink?lat=42.103&lon=44.111&radius=20`
 
 `[
 {
@@ -23,6 +23,5 @@ Get: `https://api.manitobaSkatingRigs.info/getSkatingRink/42.103/44.111/20`
    'address": "61 clayton Drive, Winnipeg, MB",
    "phone": "2041232222"
 }
-
 ]`
 
