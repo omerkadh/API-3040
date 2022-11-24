@@ -11,6 +11,8 @@ Get a list of current skating rink locations within a specified kilometer radius
 
   
 
+  
+
 ## Example
 
 **Request**
@@ -27,9 +29,9 @@ Get a list of current skating rink locations within a specified kilometer radius
       "phone": "2041232222"
     }, 
      { "name": "Dakota Skating Rig",
-     'address": "61 clayton Drive, Winnipeg, MB", 
+     "address": "61 clayton Drive, Winnipeg, MB",
+     "postal": "R2M1G1", 
      "phone": "2041232222" 
      }
     ]
-
 
