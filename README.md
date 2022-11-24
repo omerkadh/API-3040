@@ -27,7 +27,7 @@ Get a list of current skating rink locations within a specified kilometer radius
       "address": "2080 pembina hwy, Winnipeg, MB",
       "postal": "R3T2G9", 
       "phone": "2041232222"
-    }, 
+     }, 
      {
      "name": "Dakota Skating Rig",
      "address": "61 clayton Drive, Winnipeg, MB",
