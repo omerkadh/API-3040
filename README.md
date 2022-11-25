@@ -4,6 +4,17 @@ Get a list of current skating rink locations within a specified kilometer radius
 
 # List of endpoints with parameters
 
+## Endpoints
+`http://www.skatingrink.com/location`
+* Returns a list of skating rink locations that match the given parameters (see below).
+
+## Parameters
+| Name        | Type        | Description   |
+| :---        |    :----:   |          :--- |
+| Radius      | float       | Required. List of skating rink will be returned within this radius     |
+| Size        | float       | Optional. Only specific size of skating rink will be returned          |
+| Opened      | boolean     | Optional. Only opened skating rink will be returned if it is 'True'    |
+
 # Description of resources - formatted as JSON
 
 A List of available rinks in the radius are listed and each have 4 outputed resources which are: \
