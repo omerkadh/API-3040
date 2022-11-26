@@ -11,17 +11,18 @@ Get a list of current skating rink locations within a specified kilometer radius
 ## Parameters
 | Name        | Type        | Description   |
 | :---        |    :----:   |          :--- |
-| Radius      | float       | Required. List of skating rink will be returned within this radius     |
-| Size        | float       | Optional. Only specific size of skating rink will be returned          |
-| Opened      | boolean     | Optional. Only opened skating rink will be returned if it is 'True'    |
+| lat         | number       | Required. Latitude of the location in Manitoba where you want to look for skating  rinks |         |
+| long        | number       | Required. Longitude of the location in Manitoba where you want to look for skating  rinks |
+| Radius      | integer      | Required. Radius of the search area |
 
 # Description of resources - formatted as JSON
 
 A List of available rinks in the radius are listed and each have 4 outputed resources which are: \
-_Name_: A **String** containing the name of the rink. \
-_Adress_: A **String** containing the address of the rink. \
-_Postal_: A **String** containing the postal code of the rink. \
-_Phone_: An **Integer** containing the phone number of the manager of the rink.
+_id: An **Int** identifying the rinks uniquely
+_name_: A **String** containing the name of the rink. \
+_address_: A **String** containing the address of the rink. \
+_postal_: A **String** containing the postal code of the rink. \
+_phone_: An **Integer** containing the phone number of the manager of the rink.
 
 # Sample request with sample response
 
