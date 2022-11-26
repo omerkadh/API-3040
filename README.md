@@ -47,7 +47,7 @@ A List of available rinks in the radius are listed and each have 4 outputed reso
 
 **Response:**
 
-    [
+     [
      {
       "id":1,
       "name": "Manitoba Skating, 
@@ -67,5 +67,5 @@ A List of available rinks in the radius are listed and each have 4 outputed reso
       "long": 44.111,
       "rad": 12
     }
-   ]
+    ]
 
