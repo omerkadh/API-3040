@@ -5,7 +5,7 @@ Get a list of current skating rink locations within a specified kilometer radius
 # List of endpoints with parameters
 
 ## Endpoints
-`http://www.skatingrink.com/location`
+`/getSkatingRink`
 * Returns a list of skating rink locations that match the given parameters (see below).
 
 ## Parameters
@@ -34,7 +34,7 @@ _Phone_: An **Integer** containing the phone number of the manager of the rink.
 
 **Request**
 
-    Get:  https://api.manitobaskatingrinks.org/info/1.0/getskatingrink?lat=42.103&lon=44.111&radius=20
+    Get:  https://api.manitobaskatingrinks.org/getSkatingRink?lat=42.103&lon=44.111&radius=20
 
 **Response:**
 
