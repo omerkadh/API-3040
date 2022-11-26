@@ -18,16 +18,19 @@ Get a list of current skating rink locations within a specified kilometer radius
 # Description of resources - formatted as JSON
 
 A List of available rinks in the radius are listed and each have 4 outputed resources which are: \
-[ \
-  {
-    "_id": An **intege** identifying the rinks uniquely \
-    "name"_: A **String** containing the name of the rink. \
-    "address"_: A **String** containing the address of the rink. \
-    "postal"_: A **String** containing the postal code of the rink. \
-    "phone"_: An **Integer** containing the phone number of the manager of the rink. \
-    "params"_: An object that contains information about the paramenters passed to the API. \
-  }\
-]
+
+
+    [  
+    { 
+    "id": An  **integer**  identifying the rinks uniquely.
+    "name": A  **string**  containing the name of the rink.  
+    "address": A  **string**  containing the address of the rink.  
+    "postal": A  string  containing the postal code of the rink.  
+    "phone": An  **integer**  containing the phone number of the manager of the rink.  
+    "params": An **object** that contains information about the paramenters passed to the API.  
+    }  
+    ]
+
 
 # Sample request with sample response
 
