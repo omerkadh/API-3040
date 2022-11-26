@@ -54,8 +54,8 @@ _Phone_: An **Integer** containing the phone number of the manager of the rink.
      "phone": "2041232222" 
      },
      "params": {
-      "lat": 51.2344,
-      "long": 44.242,
+      "lat": 42.103,
+      "long": 44.111,
       "rad": 12
     }
    ]
