@@ -40,16 +40,23 @@ _Phone_: An **Integer** containing the phone number of the manager of the rink.
 
     [
      {
+      "id":1,
       "name": "Manitoba Skating, 
       "address": "2080 pembina hwy, Winnipeg, MB",
       "postal": "R3T2G9", 
       "phone": "2041232222"
      }, 
      {
+     "id":2,
      "name": "Dakota Skating Rig",
      "address": "61 clayton Drive, Winnipeg, MB",
      "postal": "R2M1G1", 
      "phone": "2041232222" 
-     }
-    ]
+     },
+     "params": {
+      "lat": 51.2344,
+      "long": 44.242,
+      "rad": 12
+    }
+   ]
 
