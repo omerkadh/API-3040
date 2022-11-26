@@ -22,11 +22,11 @@ A List of available rinks in the radius are listed and each have 4 outputed reso
 
     [  
     { 
-    "id": An  **integer**  identifying the rinks uniquely.
-    "name": A  **string**  containing the name of the rink.  
-    "address": A  **string**  containing the address of the rink.  
-    "postal": A  string  containing the postal code of the rink.  
-    "phone": An  **integer**  containing the phone number of the manager of the rink.  
+    "id": An **integer** identifying the rinks uniquely.
+    "name": A **string** containing the name of the rink.  
+    "address": A **string** containing the address of the rink.  
+    "postal": A **string** containing the postal code of the rink.  
+    "phone": An **integer** containing the phone number of the manager of the rink.  
     "params": An **object** that contains information about the paramenters passed to the API.  
     }  
     ]
@@ -49,14 +49,14 @@ A List of available rinks in the radius are listed and each have 4 outputed reso
 
      [
      {
-      "id":1,
+      "id": 1,
       "name": "Manitoba Skating, 
       "address": "2080 pembina hwy, Winnipeg, MB",
       "postal": "R3T2G9", 
       "phone": "2041232222"
      }, 
      {
-     "id":2,
+     "id": 2,
      "name": "Dakota Skating Rig",
      "address": "61 clayton Drive, Winnipeg, MB",
      "postal": "R2M1G1", 
