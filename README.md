@@ -13,7 +13,7 @@ Get a list of current skating rink locations within a specified kilometer radius
 | :---        |    :----:   |          :--- |
 | lat         | number       | Required. Latitude of the location in Manitoba where you want to look for skating  rinks |         |
 | long        | number       | Required. Longitude of the location in Manitoba where you want to look for skating  rinks |
-| Radius      | integer      | Required. Radius of the search area |
+| rad         | integer      | Required. Radius of the search area |
 
 # Description of resources - formatted as JSON
 
@@ -43,7 +43,7 @@ A List of available rinks in the radius are listed and each have 4 outputed reso
 
 **Request**
 
-    Get:  https://api.manitobaskatingrinks.org/getSkatingRink?lat=42.103&lon=44.111&radius=20
+    Get:  https://api.manitobaskatingrinks.org/getSkatingRink?lat=42.103&lon=44.111&rad=20
 
 **Response:**
 
@@ -65,7 +65,7 @@ A List of available rinks in the radius are listed and each have 4 outputed reso
      "params": {
       "lat": 42.103,
       "long": 44.111,
-      "rad": 12
+      "rad": 20
     }
     ]
 
