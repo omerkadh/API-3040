@@ -43,7 +43,7 @@ A List of available rinks in the radius are listed and each have 4 outputed reso
 
 **Request**
 
-    Get:  https://api.manitobaskatingrinks.org/getSkatingRink?lat=42.103&lon=44.111&rad=20
+    Get:  https://api.manitobaSkatingRinks.org/getSkatingRink?lat=42.103&lon=44.111&rad=20
 
 **Response:**
 
