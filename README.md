@@ -19,18 +19,16 @@ Get a list of current skating rink locations within a specified kilometer radius
 
 A List of available rinks in the radius are listed and each have 4 outputed resources which are: \
 
-
-    [  
-    { 
-    "id": An **integer** identifying the rinks uniquely.
-    "name": A **string** containing the name of the rink.  
-    "address": A **string** containing the address of the rink.  
-    "postal": A **string** containing the postal code of the rink.  
-    "phone": An **integer** containing the phone number of the manager of the rink.  
-    "params": An **object** that contains information about the paramenters passed to the API.  
-    }  
-    ]
-
+```json  
+{ 
+    "id": "An **integer** identifying the rinks uniquely."
+    "name": "A **string** containing the name of the rink."
+    "address": "A **string** containing the address of the rink."
+    "postal": "A **string** containing the postal code of the rink."
+    "phone": "An **integer** containing the phone number of the manager of the rink."
+    "params": "An **object** that contains information about the paramenters passed to the API."
+}   
+```
 
 # Sample request with sample response
 
@@ -46,11 +44,11 @@ A List of available rinks in the radius are listed and each have 4 outputed reso
     Get:  https://api.manitobaSkatingRinks.org/getSkatingRink?lat=42.103&lon=44.111&rad=20
 
 **Response:**
-
-     [
+```json
+{
      {
       "id": 1,
-      "name": "Manitoba Skating, 
+      "name": "Manitoba Skating", 
       "address": "2080 pembina hwy, Winnipeg, MB",
       "postal": "R3T2G9", 
       "phone": "2041232222"
@@ -63,9 +61,9 @@ A List of available rinks in the radius are listed and each have 4 outputed reso
      "phone": "2041232222" 
      },
      "params": {
-      "lat": 42.103,
-      "long": 44.111,
-      "rad": 20
-    }
-    ]
-
+     "lat": 42.103,
+     "long": 44.111,
+     "rad": 20
+     }
+}
+```
