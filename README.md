@@ -17,7 +17,7 @@ Get a list of current skating rink locations within a specified kilometer radius
 
 # Description of resources - formatted as JSON
 
-A List of available rinks in the radius are listed and each have 4 outputed resources which are: \
+Gets information about available rinks in the given radius. The infomation is listed and each rink has 5 outputed resources which are: 
 
 ```json  
 { 
