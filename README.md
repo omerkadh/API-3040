@@ -45,7 +45,7 @@ Gets information about available rinks in the given radius. The infomation is li
 
 **Response:**
 ```json
-{
+[
      {
       "id": 1,
       "name": "Manitoba Skating", 
@@ -59,11 +59,6 @@ Gets information about available rinks in the given radius. The infomation is li
      "address": "61 clayton Drive, Winnipeg, MB",
      "postal": "R2M1G1", 
      "phone": "2041232222" 
-     },
-     "params": {
-     "lat": 42.103,
-     "long": 44.111,
-     "rad": 20
      }
-}
+]
 ```
