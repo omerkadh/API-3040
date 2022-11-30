@@ -26,7 +26,6 @@ Gets information about available rinks in the given radius. The infomation is li
     "address": "A string containing the address of the rink."
     "postal": "A string containing the postal code of the rink."
     "phone": "An integer containing the phone number of the manager of the rink."
-    "params": "An object that contains information about the paramenters passed to the API."
 }   
 ```
 
